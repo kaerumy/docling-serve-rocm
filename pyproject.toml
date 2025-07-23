@@ -1,0 +1,15 @@
+[project]
+name = "docling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "pytorch-triton-rocm",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/nightly/rocm6.4/"
