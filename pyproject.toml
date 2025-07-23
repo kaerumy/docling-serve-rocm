@@ -1,5 +1,5 @@
 [project]
-name = "docling"
+name = "docling-serve-rocm"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,7 +9,7 @@ dependencies = [
     "torchvision",
     "torchaudio",
     "pytorch-triton-rocm",
+    "docling-serve[ui]",
 ]
 
-[[tool.uv.index]]
-url = "https://download.pytorch.org/whl/nightly/rocm6.4/"
+[tool.uv.sources]
